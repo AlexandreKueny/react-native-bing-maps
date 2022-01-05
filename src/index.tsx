@@ -22,8 +22,7 @@ type BingMapsProps = {
   onMapLoadingStatusChanged?: (e: NativeSyntheticEvent<EventTarget>) => void;
 };
 
-export const BingMapsViewManager = requireNativeComponent<BingMapsProps>(
-  'BingMapsView'
-);
+export const BingMapsViewManager =
+  requireNativeComponent<BingMapsProps>('BingMapsView');
 
 export default BingMapsViewManager;
