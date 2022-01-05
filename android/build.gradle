@@ -134,6 +134,6 @@ dependencies {
   // noinspection GradleDynamicVersion
   api 'com.facebook.react:react-native:+'
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-  implementation 'com.microsoft.maps:maps-sdk:1.1.4'
+  implementation 'com.microsoft.maps:maps-sdk:1.2.0'
   implementation 'com.caverock:androidsvg-aar:1.4'
 }
